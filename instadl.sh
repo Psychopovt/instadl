@@ -5,7 +5,7 @@ if [ "$1" == "-h" ] || [ "$1" == "--help" ] || [ "$1" == "-H" ];then
 	echo -e "\e[1;31m$0 \e[1;32m-u \e[1;37mor \e[1;32m--url \e[1;37mor \e[1;32m-i \e[1;37mwith only nickname without url 
 	For Example \e[1;31m$0 -u xbox
 				\e[1;37mversion is\e[1;31m $version
-					\e[1;32mmake with \e[1;31m<3 \e[1;36mby \e[1;33m$author"
+					\e[1;32mmade with \e[1;31m<3 \e[1;36mby \e[1;33m$author"
 	exit 0
 fi
 if [ "$1" == "-u" ] || [ "$1" == "--url" ] || [ "$1" == "-i" ];then
